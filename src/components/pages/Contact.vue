@@ -73,20 +73,30 @@
   <br>
   <br>
 
-  <div class="container">
-             <br>
-              <br>
-                  <h2 class="mt-0">Useful Links</h2>
-
-                  <hr />
-
-                  <p>Click here to acess my GitHub repo</p>
-
-                  <v-icon>fas fa-github</v-icon>
-                
-                  <p>Click here to acess my LinkedIn profile</p>
-           <br>
-          </div>
+<b-container fluid class="p-4 bg-dark">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="https://www.linkedin.com/in/sarahil-anspach-8a38985a/">
+        <img src="assets/linkedin.png" alt="Lights" style="width:100%">
+        <div class="caption">
+          <p>Click here to acess my LinkedIn profile</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="https://github.com/sara9551">
+        <img src="assets/github.svg" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p>Click here to acess my GitHub repo</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</b-container>
 
     <br>
               <br>
@@ -118,7 +128,7 @@ ul nav.navbar-nav.navbar-right {
 } */
 .parallax {
     background-image: url("https://bootcamp.ce.uci.edu/wp-content/uploads/sites/52/2017/10/code_overview-1140x440.jpg");
-    height: 400px;
+    height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,6 +171,17 @@ body {
     background-color: #232e5e !important;
     padding: 0px;
     border-top: 30px solid #232e5e;
+}
+
+.thumbnail{
+    width: 100px;
+    height: 150px;
+    margin-left: 180px;
+}
+
+.caption p{
+    color: white;
+    font-size: 13px;
 }
 
 </style>

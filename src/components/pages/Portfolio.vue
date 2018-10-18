@@ -37,28 +37,36 @@
     >
 
      <!-- Slides with custom text -->
+     <a href="https://whispering-garden-53689.herokuapp.com/">
       <b-carousel-slide caption="Bike W/ Bae"
                         text="App that indicates the availability of bikes based upon location."
                         img-src="assets/BikewithBae.png"
       ></b-carousel-slide>
+      </a>
 
       <!-- Slides with custom text -->
+       <a href="https://sara9551.github.io/project0/">
       <b-carousel-slide caption="Cuisintry"
                         text="Look up your favorite country and find out more information and the local restaurants serving that country's cuisine."
                         img-src="assets/Cuisintry.png"
       ></b-carousel-slide>
+      </a>
 
     <!-- Slides with custom text -->
+     <a href="https://morning-cliffs-30053.herokuapp.com/">
       <b-carousel-slide caption="Code Review"
                         text="Review App to help students with the bootcamp."
                         img-src="assets/CodeReview.png"
       ></b-carousel-slide>
+      </a>
 
       <!-- Slides with custom text -->
+       <a href="https://sara9551.github.io/unit-4-game/">
       <b-carousel-slide caption="Crystal Collector"
-                        text="Simple guessing game."
+                        text="Simple guessing game"
                         img-src="assets/Crystal.png"
       ></b-carousel-slide>
+      </a>
 
     </b-carousel>
     <br>
@@ -87,20 +95,30 @@
   <br>
   <br>
 
-  <div class="container">
-             <br>
-              <br>
-                  <h2 class="mt-0">Useful Links</h2>
-
-                  <hr />
-
-                  <p>Click here to acess my GitHub repo</p>
-
-                  <v-icon>fas fa-github</v-icon>
-                
-                  <p>Click here to acess my LinkedIn profile</p>
-           <br>
-          </div>
+<b-container fluid class="p-4 bg-dark">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="https://www.linkedin.com/in/sarahil-anspach-8a38985a/">
+        <img src="assets/linkedin.png" alt="Lights" style="width:100%">
+        <div class="caption">
+          <p>Click here to acess my LinkedIn profile</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail">
+      <a href="https://github.com/sara9551">
+        <img src="assets/github.svg" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p>Click here to acess my GitHub repo</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</b-container>
 
     <br>
               <br>
@@ -155,7 +173,7 @@ ul nav.navbar-nav.navbar-right {
 } */
 .parallax {
     background-image: url("https://bootcamp.ce.uci.edu/wp-content/uploads/sites/52/2017/10/code_overview-1140x440.jpg");
-    height: 400px;
+    height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -200,8 +218,15 @@ body {
     border-top: 30px solid #232e5e;
 }
 
-.carousel-caption{
-    background-color:black !important;
+.thumbnail{
+    width: 100px;
+    height: 150px;
+    margin-left: 180px;
+}
+
+.caption p{
+    color: white;
+    font-size: 13px;
 }
 
 </style>
